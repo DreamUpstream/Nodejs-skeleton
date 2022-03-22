@@ -1,0 +1,41 @@
+{
+	"name": "Nodejs-skeleton",
+	"version": "1.0.0",
+	"main": "app.js",
+	"scripts": {
+		"server:start": "npx cross-env NODE_ENV=production node ./bin/www",
+		"server:dev": "npx cross-env NODE_ENV=development node_modules/.bin/nodemon ./bin/www",
+		"assets:dev": "npm run assets:development",
+		"assets:development": "mix",
+		"assets:watch": "mix watch",
+		"assets:prod": "npm run assets:production",
+		"assets:production": "mix --production"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/DreamUpstream/ExpressJs-skeleton.git"
+	},
+	"author": "",
+	"license": "Beerware",
+	"bugs": {
+		"url": "https://github.com/DreamUpstream/ExpressJs-skeleton/issues"
+	},
+	"homepage": "https://github.com/DreamUpstream/ExpressJs-skeleton#readme",
+	"dependencies": {
+		"axios": "^0.24.0",
+		"bootstrap": "^5.1.1",
+		"cookie-parser": "~1.4.4",
+		"debug": "^4.3.2",
+		"express": "^4.17.1",
+		"fontawesome-free": "^1.0.4",
+		"http-errors": "^1.8.0",
+		"morgan": "^1.10.0"
+	},
+	"devDependencies": {
+		"laravel-mix": "^6.0.6",
+		"nodemon": "^2.0.15",
+		"resolve-url-loader": "^4.0.0",
+		"sass": "^1.42.1",
+		"sass-loader": "^12.1.0"
+	}
+}

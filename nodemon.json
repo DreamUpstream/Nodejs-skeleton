@@ -1,0 +1,4 @@
+{
+	"ignore": ["", "public/js", "public/css"],
+	"ext": "html,js"
+}
