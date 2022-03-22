@@ -17,7 +17,7 @@ Included:
 - Then "npm run assets:watch"
 - Finally, open a second terminal and run "npm run server:dev"
 - Edit your index page in public/index.html | JS in resources/js/app.js | CSS or SASS in resources/sass/app.scss, assets recompile after you save them!
-- If you want to add more routes in your server e.g. /about, you can add them in routes/index.js
+- If you want to add more routes in your server e.g. /about, you can add them in routes/ directory (check routes/index.js for an example)
 
 Feel free to submit a pull request if you find how to improve this beginner-friendly template
 
