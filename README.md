@@ -1,6 +1,6 @@
 # Node.js with Express skeleton
 
-Ready to use Node.js + Express.js template server for your web project
+Ready to use Node.js + Express.js template server for your web project that I created
 
 Included:
 
